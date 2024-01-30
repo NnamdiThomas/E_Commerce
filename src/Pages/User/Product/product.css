@@ -1,0 +1,35 @@
+.product{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Products{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+.productTitle{
+    margin-top: 100px;
+    text-align: center !important;
+    font-size: 40px;
+}
+.bottn{
+    height: 300px;
+    width: 260px;
+}
+.Products img{
+    height: 290px;
+    width: 250px;
+}
+.button{
+    width: 250px;
+    height: 60px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
